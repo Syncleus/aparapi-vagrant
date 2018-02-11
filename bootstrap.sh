@@ -79,5 +79,5 @@ sudo ln -s /opt/AMDAPPSDK-3.0/lib/x86/libOpenCL.so.1 /usr/lib/libOpenCL.so
 git clone https://github.com/Syncleus/aparapi.git
 git clone https://github.com/Syncleus/aparapi-examples.git
 git clone https://github.com/Syncleus/aparapi-jni.git
-git clone https://github.com/Syncleus/aparapi-native.git
+git clone --recursive https://github.com/Syncleus/aparapi-native.git
 sudo chown -R ubuntu:ubuntu aparapi*
