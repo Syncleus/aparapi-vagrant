@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-export HOST_IP=$1
+#-----------------------------------------
+# Resize partition if needed to full size
+#-----------------------------------------
+sudo resize2fs /dev/sda1
 
 #--------------------
 # install packages 
@@ -80,4 +83,4 @@ git clone https://github.com/Syncleus/aparapi.git
 git clone https://github.com/Syncleus/aparapi-examples.git
 git clone https://github.com/Syncleus/aparapi-jni.git
 git clone --recursive https://github.com/Syncleus/aparapi-native.git
-sudo chown -R ubuntu:ubuntu aparapi*
+sudo chown -R vagrant:vagrant /home/vagrant/
