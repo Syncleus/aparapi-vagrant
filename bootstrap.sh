@@ -14,8 +14,8 @@ sudo apt-get install java-common openjdk-8-jdk openjdk-8-jre maven mesa-opencl-i
 #--------------------
 
 AMDAPPSDKROOT=/opt/AMDAPPSDK-3.0
-URL="http://developer.amd.com/amd-accelerated-parallel-processing-app-sdk/"
-URLDOWN="http://developer.amd.com/amd-license-agreement-appsdk/"
+URL="https://developer.amd.com/amd-accelerated-parallel-processing-app-sdk/"
+URLDOWN="https://developer.amd.com/amd-license-agreement-appsdk/"
 
 NONCE1_STRING='name="amd_developer_central_downloads_page_nonce"'
 FILE_STRING='name="f"'
